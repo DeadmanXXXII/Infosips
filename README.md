@@ -93,10 +93,9 @@ Sends requests up to depth 5 and saves all results in results.txt.
 
 3. Use a Proxy and Custom Headers:
 ```
-python infosteal.py https://example.com/sips --proxy http://127.0.0.1# InfoSips - SIP Information Stealer
+python infosteal.py https://example.com/sips --proxy http://127.0.0.1
+```
 
-InfoSips is a penetration testing tool designed for ethical hacking and security research on vulnerable sips endpoints.
-Use responsibly and report vulnerabilities to affected vendors.
 
 ## Installation
 ```bash
@@ -201,16 +200,4 @@ python infosteal.py https://example.com/sips --proxy http://127.0.0.1:8080 --hea
 
 
 ---
-:8080 --headers '{"User-Agent": "Mozilla/5.0"}' --wildcard-depth 4
-```
 
-
-
-✅ Requests Information from Every Stage
-✅ Automatically Iterates Through Depths
-✅ Handles Errors Gracefully (404, Timeout, etc.)
-✅ Supports Output to File for Offline Analysis
-✅ Works with Proxies and Custom Headers
-
-
----
