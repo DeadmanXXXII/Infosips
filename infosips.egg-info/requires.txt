@@ -1,0 +1,5 @@
+requests
+argparse
+logging
+urllib3
+json

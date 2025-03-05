@@ -1,0 +1,2 @@
+[console_scripts]
+infosips = infosips.infosips:main
