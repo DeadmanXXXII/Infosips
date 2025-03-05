@@ -3,6 +3,12 @@
 InfoSips is a penetration testing tool designed for ethical hacking and security research on vulnerable sips endpoints.
 Use responsibly and report vulnerabilities to affected vendors.
 
+## Infosips Script
+
+This script exploits a vulnerable endpoints dynamically using wildcards to gather user information. It supports various command-line arguments for flexibility.
+
+
+Yes, you can modify the script to request information from each stage dynamically. Instead of sending one request with a wildcard path, the script will iterate through each possible structure and send multiple requests, capturing responses from every stage.
 
 ---
 
@@ -58,8 +64,6 @@ https://example.com/sips/sipsys/users/*
 https://example.com/sips/sipsys/users/*/*
 https://example.com/sips/sipsys/users/*/*/*
 
-
-Yes, you can modify the script to request information from each stage dynamically. Instead of sending one request with a wildcard path, the script will iterate through each possible structure and send multiple requests, capturing responses from every stage.
 
 
 ---
@@ -133,11 +137,7 @@ pip install infosips
 
 Thank you for providing the script! Based on the functionality of your script, here's the correct list of commands and arguments your script accepts:
 
-README.md - Commands and Usage
-
-# Infosips Script
-
-This script exploits a vulnerable endpoint dynamically using wildcards to gather user information. It supports various command-line arguments for flexibility.
+# Commands and Usage
 
 ## Usage
 
